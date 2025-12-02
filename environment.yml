@@ -1,0 +1,27 @@
+name: harcelement-nlp
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - nltk
+  - fastapi
+  - uvicorn
+  - pymongo
+  - joblib
+  - pip:
+      - transformers==4.41.0
+      - datasets==2.18.0
+      - evaluate==0.4.2
+      - accelerate==0.30.0
+      - python-multipart
+      - torch==2.1.2
+      - sentencepiece
+      - protobuf
